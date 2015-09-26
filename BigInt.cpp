@@ -207,10 +207,11 @@ inline ostream&operator<<(ostream&output,const bigint&x)
            output<<x[i]/j%10;
     return output;
 }
-/*
+
 bigint a,b;
 int main()
 {
+    /*
     cin>>a>>b; //input
     cout<<a+b<<endl; //output a+b
     cout<<a-b<<endl; //output a-b
@@ -218,6 +219,6 @@ int main()
     cout<<a/b<<endl; //output a/b
     cout<<a%b<<endl; //output a%b
     if(a<b)cout<<1<<endl; //compare numbers
-	return 0;
+    */
+    return 0;
 }
-*/
